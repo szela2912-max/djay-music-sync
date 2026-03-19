@@ -1,0 +1,26 @@
+{
+  "name": "djay-music-sync",
+  "version": "1.0.0",
+  "description": "Music synchronization algorithm for DJ remixing with beat detection, tempo matching, and audio alignment",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "dj",
+    "music",
+    "sync",
+    "beat-detection",
+    "tempo-matching",
+    "remix"
+  ],
+  "author": "szela2912-max",
+  "license": "MIT",
+  "dependencies": {
+    "web-audio-api": "^0.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
